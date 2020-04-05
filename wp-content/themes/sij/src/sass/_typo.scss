@@ -1,0 +1,184 @@
+// Функция для рассчёта отступов элементов
+@function rvr($multiple) {
+    @return calc(var(--baseline) * #{$multiple} * 1rem);
+}
+
+// Функция расчёта размера шрифта для элементов
+@function fs($exponent) {
+    $value: 1;
+
+    @if $exponent > 0 {
+        @for $i from 1 through 0 + $exponent {
+            $value: #{$value} * var(--scale);
+        }
+    }
+
+    @if $exponent < 0 {
+        @for $i from 1 through 0 - $exponent {
+            $value: #{$value} / var(--scale);
+        }
+    }
+
+    @return calc(#{$value} * var(--base-font-size));
+}
+
+// Функция расчёта высоты строки
+@function lh($multi) {
+    @return calc(#{$multi} * var(--base-font-size) * var(--baseline));
+}
+
+// Переменные css
+:root {
+    --baseline: 1.466666667;
+    --base-font-size: 0.9375rem;
+    --scale: 1.125;
+}
+
+@include media-breakpoint-up(xl) {
+    :root {
+        // --scale: 1.125;
+        --base-font-size: 1.125rem;
+    }
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    line-height: var(--baseline);
+    font-size: var(--base-font-size);
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: rvr(1);
+    font-size: fs(4);
+    line-height: lh(2);
+}
+
+h2,
+.h2 {
+    margin: 0 0 rvr(1);
+    font-size: fs(3);
+    line-height: lh(1);
+    text-align: center;
+    font-weight: 700;
+
+    @include media-breakpoint-up(xl) {
+        // position: relative;
+        // margin: 0 0 rvr(2);
+        // text-align: left;
+        // line-height: lh(2);
+
+        // &::after {
+        //     content: "";
+        //     display: block;
+        //     position: absolute;
+        //     bottom: rvr(-0.5);
+        //     background-color: $color-menu-top;
+        //     height: 3px;
+        //     width: 9.375rem;
+        // }
+
+        // &_white {
+        //     &::after {
+        //         background-color: #fff;
+        //     }
+        // }
+    }
+}
+
+h3 {
+    margin-bottom: 0;
+    font-size: fs(2);
+    line-height: lh(2);
+}
+
+h4 {
+    margin-bottom: 0;
+    font-size: fs(1);
+    line-height: lh(2);
+    font-weight: 600;
+}
+
+h5 {
+    margin: 0;
+    font-size: fs(1);
+    line-height: lh(1);
+    font-weight: 600;
+}
+
+p,
+ul,
+ol,
+pre,
+table,
+blockquote {
+    margin-bottom: rvr(1);
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+    margin: 0 0 rvr(1);
+}
+
+.text-small {
+    &-1 {
+        font-size: fs(-1);
+        // line-height: lh(1);
+    }
+    &-2 {
+        font-size: fs(-2);
+        // line-height: lh(1);
+    }
+}
+
+.text-big {
+    &-1 {
+        font-size: fs(2);
+        // line-height: lh(1);
+    }
+    &-2 {
+        font-size: fs(3);
+        // line-height: lh(1);
+    }
+    &-3 {
+        font-size: fs(4);
+    }
+    &-4 {
+        font-size: fs(5);
+    }
+    &-5 {
+        font-size: fs(6);
+    }
+    &-12 {
+        font-size: fs(13);
+    }
+
+    @include media-breakpoint-up(xl) {
+        &-d {
+            &-10 {
+                font-size: fs(11);
+            }
+        }
+    }
+}
+
+.mb {
+    &-1rvr {
+        margin-bottom: rvr(1) !important;
+    }
+
+    &-2rvr {
+        margin-bottom: rvr(2) !important;
+    }
+}

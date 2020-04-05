@@ -1,0 +1,258 @@
+0000.020 (0) Opened log file at time: Thu, 12 Mar 2020 07:37:59 +0000 on http://localhost:3000
+0000.032 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.3.11-0ubuntu0.19.10.3 (cli-server, Linux eugene-AB350M-DS3H-V2 5.3.0-40-generic #32-Ubuntu SMP Fri Jan 31 20:24:34 UTC 2020 x86_64) MySQL: 8.0.19-0ubuntu0.19.10.3 WPLANG: ru_RU Server: PHP 7.3.11-0ubuntu0.19.10.3 Development Server safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 10.7M | 10M) multisite: N openssl: OpenSSL 1.1.1c  28 May 2019 mcrypt: N LANG: ru_RU.UTF-8 ZipArchive::addFile: N
+0000.048 (0) Free space on disk containing Updraft's temporary directory: 109047.2 MB
+0000.065 (0) Tasks: Backup files: 1 (schedule: twicedaily) Backup DB:  (schedule: twicedaily)
+0000.077 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.146 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1583946960, seconds_ago=51719)
+0000.191 (0) Set semaphore last lock (fd) time to 2020-03-12 07:37:59
+0000.198 (0) Semaphore lock (fd) complete
+0000.228 (0) Backup run: resumption=0, nonce=f550c7e4a10b, file_nonce=f550c7e4a10b begun at=1583998679 (0s ago), job type=backup
+0000.252 (0) Scheduling a resumption (1) after 300 seconds (1583998979) in case this run gets aborted
+0000.305 (0) Checking if we have a zip executable available
+0000.314 (0) Testing: /usr/bin/zip
+0000.341 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.354 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.363 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.370 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.378 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.396 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.413 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.472 (0) Working binary zip found: /usr/bin/zip
+0000.487 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.497 (0) Creation of backups of directories: beginning
+0000.536 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.584 (0) Total entities for the zip file: 272 directories, 2032 files (0 skipped as non-modified), 30.9 MB
+0000.596 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.612 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.630 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.639 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.648 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.653 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.8 MB, 2032 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.822 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: size is now: 2.00 MB
+0001.838 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 600 files added (on-disk size: 2031.2 KB)
+0001.846 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 700 files added (on-disk size: 2031.2 KB)
+0001.864 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 800 files added (on-disk size: 2031.2 KB)
+0001.883 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 900 files added (on-disk size: 2031.2 KB)
+0001.897 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 1000 files added (on-disk size: 2031.2 KB)
+0001.903 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.3 MB, 2032 files batched, 501 (1002) added so far); re-opening (prior size: 2031.2 KB)
+0002.396 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: size is now: 2.50 MB
+0002.428 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 1100 files added (on-disk size: 2605.3 KB)
+0002.443 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 1200 files added (on-disk size: 2605.3 KB)
+0002.454 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 1300 files added (on-disk size: 2605.3 KB)
+0002.462 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 1400 files added (on-disk size: 2605.3 KB)
+0002.472 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 1500 files added (on-disk size: 2605.3 KB)
+0002.487 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.2 MB, 2032 files batched, 501 (1503) added so far); re-opening (prior size: 2605.3 KB)
+0003.719 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: size is now: 5.70 MB
+0003.738 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 1600 files added (on-disk size: 5867.8 KB)
+0003.747 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 1700 files added (on-disk size: 5867.8 KB)
+0003.764 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 1800 files added (on-disk size: 5867.8 KB)
+0003.784 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 1900 files added (on-disk size: 5867.8 KB)
+0003.801 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: 2000 files added (on-disk size: 5867.8 KB)
+0003.807 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.2 MB, 2032 files batched, 501 (2004) added so far); re-opening (prior size: 5867.8 KB)
+0005.662 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip.tmp: size is now: 9.40 MB
+0005.962 (0) Created plugins zip (0) - 9797.1 KB in 5.4 s (1808.3 KB/s) (sha1: a68336524add386e12227a7610de51ad0ed3f915, sha256: 8e555cc50283226302014cd2ababcb1d583b8f4732063e64df443837b1e35077)
+0005.975 (0) Beginning creation of dump of themes (split every: 400 MB)
+0006.008 (0) Total entities for the zip file: 65 directories, 356 files (0 skipped as non-modified), 5.7 MB
+0006.022 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0006.036 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0006.046 (0) Zip: backup_2020-03-12-1037_localhost_f550c7e4a10b-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0006.512 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-themes.zip.tmp: size is now: 2.90 MB
+0006.587 (0) Created themes zip (0) - 2983.5 KB in 0.6 s (4940.7 KB/s) (sha1: 01d3fc3a8e86233f8f1d0689c16654e460a3c17a, sha256: 56b972af664b3a3f26d490acc0fa925580abf102cb96944fbea5751cb13a8e2a)
+0006.609 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0006.617 (0) Looking for candidates to backup in: /media/STORE/sites/kuskichev/sij-project-wp/wp-content/uploads
+0006.623 (0) finding files: wp-cerber-248TG9MIQOCY3JFKPDN: adding to list (1)
+0006.632 (0) finding files: .htaccess: adding to list (2)
+0006.647 (0) finding files: 2020: adding to list (3)
+0006.658 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0006.680 (0) Total entities for the zip file: 3 directories, 13 files (0 skipped as non-modified), 0.2 MB
+0006.738 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-uploads.zip.tmp: size is now: 0.20 MB
+0006.792 (0) Created uploads zip (0) - 233.8 KB in 0.1 s (1938.4 KB/s) (sha1: f4130eb10d3f837246dd33a8d8debe793aa763d0, sha256: 20e6b7edd45734159b505d3b785e2abe773924144813019ad5fe527dc949e267)
+0006.809 (0) Beginning backup of other directories found in the content directory (index: 0)
+0006.824 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0006.835 (0) Looking for candidates to backup in: /media/STORE/sites/kuskichev/sij-project-wp/wp-content
+0006.846 (0) finding files: themes: skipping: this is the themes directory
+0006.854 (0) finding files: upgrade: skipping: excluded by options
+0006.861 (0) finding files: cache: skipping: excluded by options
+0006.867 (0) finding files: debug.log: skipping: excluded by options
+0006.876 (0) finding files: plugins: skipping: this is the plugins directory
+0006.891 (0) finding files: w3tc-config: adding to list (1)
+0006.903 (0) finding files: uploads: skipping: this is the uploads directory
+0006.914 (0) finding files: mu-plugins: adding to list (2)
+0006.921 (0) finding files: updraft: skipping: this is the updraft directory
+0006.927 (0) finding files: index.php: adding to list (3)
+0006.934 (0) finding files: languages: adding to list (4)
+0006.963 (0) Total entities for the zip file: 5 directories, 48 files (0 skipped as non-modified), 3.2 MB
+0007.332 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-others.zip.tmp: size is now: 0.80 MB
+0007.391 (0) Created others zip (0) - 861.1 KB in 0.4 s (1937.3 KB/s) (sha1: f93f98a9477f6e60e1fa9370a24b7d3ce698cbac, sha256: 031e06d3bfa9d3d48d0b0731b41694977cbc2ed561cff1668ba03b1cc74620c9)
+0007.430 (0) Saving backup status to database (elements: 8)
+0007.459 (0) Beginning creation of database dump (WordPress DB)
+0007.477 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0007.519 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1075 bytes total)
+0007.533 (0) Testing potential mysqldump binary: /bin/mysqldump
+0007.571 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1075 bytes total)
+0007.603 (0) Table wp_options: Total expected rows (approximate): 283
+0007.619 (0) Table wp_options: Total rows added: 264 in 0.01 seconds
+0007.632 (0) Table wp_options: finishing file (backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_options.table.gz - 23 KB)
+0007.666 (0) Table wp_users: Total expected rows (approximate): 0
+0007.675 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0007.685 (0) Table wp_users: finishing file (backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_users.table.gz - 0.6 KB)
+0007.724 (0) Table wp_usermeta: Total expected rows (approximate): 25
+0007.733 (0) Table wp_usermeta: Total rows added: 26 in 0.00 seconds
+0007.739 (0) Table wp_usermeta: finishing file (backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_usermeta.table.gz - 1 KB)
+0007.784 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0007.797 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0007.804 (0) Table wp_commentmeta: finishing file (backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0007.839 (0) Table wp_comments: Total expected rows (approximate): 1
+0007.861 (0) Table wp_comments: Total rows added: 1 in 0.01 seconds
+0007.868 (0) Table wp_comments: finishing file (backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_comments.table.gz - 0.8 KB)
+0007.899 (0) Table wp_links: Total expected rows (approximate): 0
+0007.916 (0) Table wp_links: Total rows added: 0 in 0.01 seconds
+0007.926 (0) Table wp_links: finishing file (backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_links.table.gz - 0.4 KB)
+0007.948 (0) Table wp_postmeta: Total expected rows (approximate): 92
+0007.968 (0) Table wp_postmeta: Total rows added: 89 in 0.00 seconds
+0007.979 (0) Table wp_postmeta: finishing file (backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_postmeta.table.gz - 1.8 KB)
+0008.007 (0) Table wp_posts: Total expected rows (approximate): 25
+0008.020 (0) Table wp_posts: Total rows added: 24 in 0.00 seconds
+0008.033 (0) Table wp_posts: finishing file (backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_posts.table.gz - 6 KB)
+0008.065 (0) Table wp_term_relationships: Total expected rows (approximate): 4
+0008.074 (0) Table wp_term_relationships: Total rows added: 5 in 0.00 seconds
+0008.087 (0) Table wp_term_relationships: finishing file (backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0008.125 (0) Table wp_term_taxonomy: Total expected rows (approximate): 2
+0008.134 (0) Table wp_term_taxonomy: Total rows added: 2 in 0.00 seconds
+0008.142 (0) Table wp_term_taxonomy: finishing file (backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0008.185 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0008.197 (0) Table wp_termmeta: Total rows added: 0 in 0.01 seconds
+0008.204 (0) Table wp_termmeta: finishing file (backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_termmeta.table.gz - 0.4 KB)
+0008.246 (0) Table wp_terms: Total expected rows (approximate): 2
+0008.257 (0) Table wp_terms: Total rows added: 2 in 0.00 seconds
+0008.264 (0) Table wp_terms: finishing file (backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_terms.table.gz - 0.5 KB)
+0008.285 (0) Skipping table (lacks our prefix (wp_)): cerber_acl
+0008.300 (0) Skipping table (lacks our prefix (wp_)): cerber_blocks
+0008.313 (0) Skipping table (lacks our prefix (wp_)): cerber_countries
+0008.320 (0) Skipping table (lacks our prefix (wp_)): cerber_lab
+0008.328 (0) Skipping table (lacks our prefix (wp_)): cerber_lab_ip
+0008.336 (0) Skipping table (lacks our prefix (wp_)): cerber_lab_net
+0008.349 (0) Skipping table (lacks our prefix (wp_)): cerber_log
+0008.367 (0) Skipping table (lacks our prefix (wp_)): cerber_qmem
+0008.378 (0) Skipping table (lacks our prefix (wp_)): cerber_traffic
+0008.394 (0) Table wp_cerber_files: Total expected rows (approximate): 18031
+0009.251 (0) Table wp_cerber_files: Total rows added: 17560 in 0.85 seconds
+0009.271 (0) Table wp_cerber_files: finishing file (backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_cerber_files.table.gz - 1471.9 KB)
+0009.305 (0) Table wp_cerber_sets: Total expected rows (approximate): 11
+0009.315 (0) Table wp_cerber_sets: Total rows added: 11 in 0.00 seconds
+0009.328 (0) Table wp_cerber_sets: finishing file (backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_cerber_sets.table.gz - 1.4 KB)
+0009.362 (0) Table wp_cerber_uss: Total expected rows (approximate): 0
+0009.373 (0) Table wp_cerber_uss: Total rows added: 0 in 0.00 seconds
+0009.379 (0) Table wp_cerber_uss: finishing file (backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_cerber_uss.table.gz - 0.4 KB)
+0009.419 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_options.table.gz (1/24): adding to final database dump
+0009.433 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_users.table.gz (2/24): adding to final database dump
+0009.439 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_usermeta.table.gz (3/24): adding to final database dump
+0009.446 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_commentmeta.table.gz (4/24): adding to final database dump
+0009.454 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_comments.table.gz (5/24): adding to final database dump
+0009.467 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_links.table.gz (6/24): adding to final database dump
+0009.480 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_postmeta.table.gz (7/24): adding to final database dump
+0009.494 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_posts.table.gz (8/24): adding to final database dump
+0009.502 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_term_relationships.table.gz (9/24): adding to final database dump
+0009.507 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_term_taxonomy.table.gz (10/24): adding to final database dump
+0009.514 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_termmeta.table.gz (11/24): adding to final database dump
+0009.527 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_terms.table.gz (12/24): adding to final database dump
+0009.540 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_cerber_files.table.gz (13/24): adding to final database dump
+0009.720 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_cerber_sets.table.gz (14/24): adding to final database dump
+0009.727 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-db-table-wp_cerber_uss.table.gz (15/24): adding to final database dump
+0009.734 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-db.gz: finished writing out complete database file (1496 KB)
+0009.797 (0) Total database tables backed up: 15 (backup_2020-03-12-1037_localhost_f550c7e4a10b-db.gz, size: 1542254, sha1: 2e5373a3f14ba58978f330f7339236a8b0b7f340, sha256: 088fd2e03cf9ab317c30f69bc82b261870539e9ed7a864ae70eb7abd584d5d65)
+0009.839 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0009.850 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0009.858 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0009.864 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-others.zip: others: This file has not yet been successfully uploaded: will queue
+0009.870 (0) backup_2020-03-12-1037_localhost_f550c7e4a10b-db.gz: db: This file has not yet been successfully uploaded: will queue
+0009.885 (0) Saving backup history. Total backup size: 15 MB
+0009.910 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0009.932 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0009.943 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-dc0fe26ea993ce1b84bc455c85ff3dc9)
+0013.003 (0) Google Drive: quota usage: used=6775.2 MB, total=15360 MB, available=8584.8 MB
+0013.015 (0) Google Drive: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Zu40E8P--DnpJxzPu1y2qBKC89mpUaC7)
+0013.959 (0) Googledrive chunked upload: 10.5 % uploaded (1048576)
+0014.406 (0) Googledrive chunked upload: 20.9 % uploaded (2097152)
+0014.828 (0) Googledrive chunked upload: 31.4 % uploaded (3145728)
+0015.260 (0) Googledrive chunked upload: 41.8 % uploaded (4194304)
+0015.681 (0) Googledrive chunked upload: 52.3 % uploaded (5242880)
+0016.145 (0) Googledrive chunked upload: 62.7 % uploaded (6291456)
+0016.584 (0) Googledrive chunked upload: 73.2 % uploaded (7340032)
+0017.031 (0) Googledrive chunked upload: 83.6 % uploaded (8388608)
+0017.489 (0) Googledrive chunked upload: 94.1 % uploaded (9437184)
+0019.012 (0) Googledrive chunked upload: 100 % uploaded (9437184)
+0019.045 (0) Google Drive: OK: Archive backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip uploaded in 6.02 seconds
+0019.052 (0) Recording as successfully uploaded: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip
+0019.078 (0) Deleting local file: backup_2020-03-12-1037_localhost_f550c7e4a10b-plugins.zip: OK
+0019.535 (0) Google Drive: quota usage: used=6784.8 MB, total=15360 MB, available=8575.2 MB
+0019.543 (0) Google Drive: backup_2020-03-12-1037_localhost_f550c7e4a10b-themes.zip: Attempting to upload to Google Drive (into folder id: 1Zu40E8P--DnpJxzPu1y2qBKC89mpUaC7)
+0020.525 (0) Googledrive chunked upload: 34.3 % uploaded (1048576)
+0020.998 (0) Googledrive chunked upload: 68.6 % uploaded (2097152)
+0022.503 (0) Googledrive chunked upload: 100 % uploaded (2097152)
+0022.523 (0) Google Drive: OK: Archive backup_2020-03-12-1037_localhost_f550c7e4a10b-themes.zip uploaded in 2.97 seconds
+0022.533 (0) Recording as successfully uploaded: backup_2020-03-12-1037_localhost_f550c7e4a10b-themes.zip
+0022.563 (0) Deleting local file: backup_2020-03-12-1037_localhost_f550c7e4a10b-themes.zip: OK
+0023.179 (0) Google Drive: quota usage: used=6787.7 MB, total=15360 MB, available=8572.3 MB
+0023.186 (0) Google Drive: backup_2020-03-12-1037_localhost_f550c7e4a10b-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Zu40E8P--DnpJxzPu1y2qBKC89mpUaC7)
+0025.020 (0) Googledrive chunked upload: 100 % uploaded
+0025.039 (0) Google Drive: OK: Archive backup_2020-03-12-1037_localhost_f550c7e4a10b-uploads.zip uploaded in 1.85 seconds
+0025.051 (0) Recording as successfully uploaded: backup_2020-03-12-1037_localhost_f550c7e4a10b-uploads.zip
+0025.079 (0) Deleting local file: backup_2020-03-12-1037_localhost_f550c7e4a10b-uploads.zip: OK
+0025.559 (0) Google Drive: quota usage: used=6787.9 MB, total=15360 MB, available=8572.1 MB
+0025.568 (0) Google Drive: backup_2020-03-12-1037_localhost_f550c7e4a10b-others.zip: Attempting to upload to Google Drive (into folder id: 1Zu40E8P--DnpJxzPu1y2qBKC89mpUaC7)
+0027.713 (0) Googledrive chunked upload: 100 % uploaded
+0027.755 (0) Google Drive: OK: Archive backup_2020-03-12-1037_localhost_f550c7e4a10b-others.zip uploaded in 2.17 seconds
+0027.761 (0) Recording as successfully uploaded: backup_2020-03-12-1037_localhost_f550c7e4a10b-others.zip
+0027.777 (0) Deleting local file: backup_2020-03-12-1037_localhost_f550c7e4a10b-others.zip: OK
+0028.280 (0) Google Drive: quota usage: used=6788.8 MB, total=15360 MB, available=8571.2 MB
+0028.291 (0) Google Drive: backup_2020-03-12-1037_localhost_f550c7e4a10b-db.gz: Attempting to upload to Google Drive (into folder id: 1Zu40E8P--DnpJxzPu1y2qBKC89mpUaC7)
+0029.120 (0) Googledrive chunked upload: 68 % uploaded (1048576)
+0030.418 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0030.444 (0) Google Drive: OK: Archive backup_2020-03-12-1037_localhost_f550c7e4a10b-db.gz uploaded in 2.14 seconds
+0030.450 (0) Recording as successfully uploaded: backup_2020-03-12-1037_localhost_f550c7e4a10b-db.gz
+0030.483 (0) Deleting local file: backup_2020-03-12-1037_localhost_f550c7e4a10b-db.gz: OK
+0030.509 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0030.517 (0) Number of backup sets in history: 3; groups (db): 1
+0030.530 (0) Examining (for databases) backup set with group_id=0, nonce=f550c7e4a10b, datestamp=1583998679 (Mar 12 2020 07:37:59)
+0030.544 (0) This backup set is the backup set just made, so will not be deleted.
+0030.544 (0) Examining (for databases) backup set with group_id=0, nonce=a7663cbe9b94, datestamp=1583946960 (Mar 11 2020 17:16:00)
+0030.544 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0030.555 (0) Examining (for databases) backup set with group_id=0, nonce=764e336fb59a, datestamp=1583939394 (Mar 11 2020 15:09:54)
+0030.555 (0) 1583939394: db: this set includes a database (backup_2020-03-11-1809_localhost_764e336fb59a-db.gz); db count is now 2
+0030.555 (0) 1583939394: db: over retain limit (2); will delete this database
+0030.555 (0) Delete file: backup_2020-03-11-1809_localhost_764e336fb59a-db.gz, service=googledrive
+0033.556 (0) Google Drive: backup_2020-03-11-1809_localhost_764e336fb59a-db.gz: Deletion successful
+0033.578 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0033.592 (0) Number of backup sets in history: 3; groups (files): 1
+0033.603 (0) Examining (for files) backup set with nonce=f550c7e4a10b, datestamp=1583998679 (Mar 12 2020 07:37:59)
+0033.603 (0) This backup set is the backup set just made, so will not be deleted.
+0033.610 (0) This backup set is the backup set just made, so will not be deleted.
+0033.611 (0) This backup set is the backup set just made, so will not be deleted.
+0033.611 (0) This backup set is the backup set just made, so will not be deleted.
+0033.612 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.620 (0) Examining (for files) backup set with nonce=a7663cbe9b94, datestamp=1583946960 (Mar 11 2020 17:16:00)
+0033.620 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.620 (0) Examining (for files) backup set with nonce=764e336fb59a, datestamp=1583939394 (Mar 11 2020 15:09:54)
+0033.620 (0) plugins: over retain limit (2); will delete this file entity
+0033.620 (0) themes: over retain limit (2); will delete this file entity
+0033.620 (0) uploads: over retain limit (2); will delete this file entity
+0033.620 (0) others: over retain limit (2); will delete this file entity
+0033.620 (0) Delete file: backup_2020-03-11-1809_localhost_764e336fb59a-plugins.zip, service=googledrive
+0033.625 (0) Delete file: backup_2020-03-11-1809_localhost_764e336fb59a-themes.zip, service=googledrive
+0033.637 (0) Delete file: backup_2020-03-11-1809_localhost_764e336fb59a-uploads.zip, service=googledrive
+0033.652 (0) Delete file: backup_2020-03-11-1809_localhost_764e336fb59a-others.zip, service=googledrive
+0035.360 (0) Google Drive: backup_2020-03-11-1809_localhost_764e336fb59a-others.zip: Deletion successful
+0036.157 (0) Google Drive: backup_2020-03-11-1809_localhost_764e336fb59a-uploads.zip: Deletion successful
+0037.094 (0) Google Drive: backup_2020-03-11-1809_localhost_764e336fb59a-themes.zip: Deletion successful
+0037.961 (0) Google Drive: backup_2020-03-11-1809_localhost_764e336fb59a-plugins.zip: Deletion successful
+0037.988 (0) This backup set is now empty; will remove from history
+0037.995 (0) Deleting log file (log.764e336fb59a.txt)
+0038.002 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0038.038 (0) Resume backup (f550c7e4a10b, 0): finish run
+0038.064 (0) Decremented the semaphore (fd) by 1
+0038.080 (0) Semaphore (fd) unlocked
+0038.096 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0038.125 (0) The backup apparently succeeded and is now complete
+0038.132 (0) No email will/can be sent - the user has not configured an email address.
+0038.139 (0) Резервное копирование успешно завершено

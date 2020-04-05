@@ -1,0 +1,34 @@
+/*!
+Theme Name: SiJ
+Text Domain: sij
+Version: 1.0.1
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: тема для сайта проектов домов СиЖ
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Author: Евгений Бухарин
+Author URI: https://www.facebook.com/evgeniy.buharin
+Theme URI: 
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+@import "bootstrap/bootstrap.scss";
+@import "colors";
+@import "fonts";
+@import "typo";
+@import "main";
+@import "navbar";
+@import "helpers";
+@import "icons";
+@import "contact-block";
+@import "modal";
+@import "btn";
+@import "logo";

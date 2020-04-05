@@ -1,0 +1,72 @@
+.contact-block {
+    // display: flex;
+    // align-items: center;
+
+    &__main {
+        font-family: "BebasNeue";
+        color: $color-text;
+        font-size: fs(2);
+        font-weight: bold;
+        padding-right: 5px;
+
+        &:hover {
+            text-decoration: none;
+            color: $color-text;
+        }
+    }
+
+    &__info {
+        opacity: 0.5;
+        font-size: 0.625rem;
+        // font-weight: 600;
+        letter-spacing: 0.1px;
+        text-transform: uppercase;
+        margin-top: -0.15rem;
+    }
+
+    [class^="icon-"],
+    [class*=" icon-"] {
+        @include no-decor();
+    }
+
+    .whatsapp {
+        margin-bottom: 0.35rem;
+        margin-right: 5px;
+    }
+
+    .telegram {
+        margin-bottom: 0.35rem;
+    }
+
+    &_soc {
+        text-align: center;
+
+        .contact-block__info {
+            color: #fff;
+            margin-bottom: rvr(0.25);
+        }
+
+        .contact-block__main {
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .telegram {
+            margin-bottom: 0;
+        }
+    }
+
+    @include media-breakpoint-up(xl) {
+        
+        &__main {
+            font-size: fs(3);
+            line-height: lh(1);
+        }
+
+        &__info {
+            font-size: fs(-3);
+        }
+    }
+}

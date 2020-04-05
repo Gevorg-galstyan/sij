@@ -1,0 +1,6 @@
+.logo {
+
+    @include media-breakpoint-up(xl) {
+        margin-right: 5rem;
+    }
+}

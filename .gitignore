@@ -1,0 +1,15 @@
+/node_modules
+.vscode/
+/opt
+/otzyvy
+/wp-admin/*
+/wp-includes/*
+/wp-content/aiowps_backups/*
+/wp-content/languages/*
+/wp-content/plugins/*
+/wp-content/cache/*
+/wp-content/upgrade/*
+/wp-content/uploads/*
+/wp-content/themes/*
+!/wp-content/themes/sij
+/wp-content/debug.log

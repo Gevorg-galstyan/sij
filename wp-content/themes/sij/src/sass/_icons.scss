@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "icomoon";
+    src: url("assets/fonts/icomoon.ttf?9ko3g5") format("truetype"),
+        url("assets/fonts/icomoon.woff?9ko3g5") format("woff"),
+        url("assets/fonts/icomoon.svg?9ko3g5#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "icomoon" !important;
+    // speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    &:hover {
+        opacity: 0.8;
+        @include transitions();
+    }
+
+    &.square-small,
+    &.square-big {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1.25rem;
+        height: 1.25rem;
+        border-radius: 2px;
+        @include no-outline();
+
+        &::before {
+            font-size: 0.65625rem;
+        }
+    }
+
+    &.square-big {
+        width: 3.125rem;
+        height: 3.125rem;
+
+        &:before {
+            font-size: fs(4);
+        }
+    }
+
+    @include media-breakpoint-up(xl) {
+        &.square-small,
+        &.square-big {
+            width: 1.375rem;
+            height: 1.375rem;
+        }
+    }
+}
+
+.icon-whatsapp {
+    &::before {
+        content: "\ea93";
+    }
+
+    &.whatsapp {
+        background-color: $color-main-2;
+
+        &::before {
+            color: #fff;
+        }
+    }
+}
+
+.icon-telegram {
+    &:before {
+        content: "\e900";
+    }
+
+    &.telegram {
+        background-color: $color-1;
+
+        &::before {
+            color: #fff;
+        }
+    }
+}
+
+.icon-facebook {
+    &::before {
+        content: "\e903";
+    }
+
+    &.facebook {
+        background-color: $color-fb;
+
+        &::before {
+            color: #fff;
+        }
+    }
+}
+
+.icon-vk {
+    &:before {
+        content: "\e904";
+    }
+
+    &.vk {
+        background-color: $color-vk;
+
+        &::before {
+            color: #fff;
+        }
+    }
+}
+
+.icon-viber {
+    &::before {
+        content: "\e905";
+    }
+
+    &.viber {
+        background-color: $color-viber;
+
+        &::before {
+            color: #fff;
+            font-size: fs(5);
+        }
+    }
+}
+
+.icon-close:before {
+    content: "\e901";
+    color: #fff;
+}
+
+.icon-commenting-o:before {
+    content: "\e902";
+}

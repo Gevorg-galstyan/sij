@@ -1,0 +1,21 @@
+.modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3.75rem;
+    height: 3.75rem;
+    background-color: $color-btn;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include transitions();
+
+    span {
+        font-size: fs(5);
+    }
+
+    &:hover {
+        background-color: $color-btn-hover;
+    }
+}

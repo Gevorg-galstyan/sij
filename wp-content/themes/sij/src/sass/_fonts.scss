@@ -1,0 +1,25 @@
+@font-face {
+    font-display: fallback;
+    font-family: "Proxima Nova";
+    src: local("Proxima Nova Regular"), local("ProximaNova-Regular"),
+        url("assets/fonts/ProximaNova-Regular.woff2") format("woff2"),
+        url("assets/fonts/ProximaNova-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("assets/fonts/ProximaNova-Semibold.woff") format("woff"),
+        url("assets/fonts/ProximaNova-Semibold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: fallback;
+    font-family: "BebasNeue";
+    src: url("assets/fonts/BebasNeueBold.woff2") format("woff2"), url("assets/fonts/BebasNeueBold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}

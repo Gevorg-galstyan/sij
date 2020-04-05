@@ -1,0 +1,152 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: flex-start;
+    padding: 0.9375rem 0;
+
+    @include media-breakpoint-up(xl) {
+        padding: 1.75rem 0;
+        // justify-content: space-between;
+    }
+}
+
+.menu-toggler {
+    padding: 0;
+    margin-right: 1.25rem;
+    width: 1.125rem;
+    height: 1rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    @include no-outline();
+    @include transitions();
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: $color-main;
+        @include transitions();
+    }
+
+    &::before {
+        top: 0;
+    }
+
+    &::after {
+        bottom: 0;
+    }
+
+    &__icon {
+        width: 100%;
+        height: 2px;
+        background: $color-main;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin-top: -1px;
+        @include transitions();
+    }
+
+    @include media-breakpoint-up(xl) {
+        display: none;
+    }
+}
+
+#mainMenu {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    background: rgba($color-text, 0.92);
+    padding: 2.5rem 4.25rem;
+    @include transitions('right');
+
+    &.active {
+        right: 0;
+    }
+
+    @include media-breakpoint-up(xl) {
+        position: static;
+        width: auto;
+        height: 0;
+        overflow: hidden;
+        padding: 0;
+        background: transparent;
+
+        &.desktop {
+            height: auto;
+        }
+    }
+}
+
+.menu {
+    list-style-type: none;
+
+    .menu-item {
+        a {
+            color: $color-text;
+        }
+    }
+
+    &_main {
+        padding: 0;
+        margin-top: 4.5rem;
+        text-align: center;
+
+        .menu-item {
+            margin-bottom: rvr(2);
+
+            &.current-menu-item {
+                a {
+                    font-weight: 700;
+                }
+            }
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+
+            a {
+                color: #fff;
+                font-weight: 700;
+                font-size: fs(3);
+                line-height: lh(1);
+                @include transitions();
+
+                &:hover {
+                    opacity: 0.5;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        @include media-breakpoint-up(xl) {
+            margin: 0;
+            display: flex;
+
+            .menu-item {
+                margin-bottom: 0;
+                margin-right: 3.75rem;
+
+                &:last-of-type {
+                    margin-right: 0;
+                }
+
+                a {
+                    color: $color-text;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: fs(-2);
+                }
+            }
+        }
+    }
+}

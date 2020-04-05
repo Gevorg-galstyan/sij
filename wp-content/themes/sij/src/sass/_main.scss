@@ -1,0 +1,53 @@
+@mixin transitions($prop: "all", $delay: "0.2s") {
+    transition: unquote($prop) unquote($delay) ease-in-out;
+}
+
+@mixin no-outline() {
+    outline: none;
+
+    &:active,
+    &:focus {
+        outline: none;
+    }
+}
+
+@mixin no-decor() {
+    text-decoration: none;
+
+    &:active,
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: $color-bg-2;
+    background: linear-gradient(180deg, $color-bg-1 0%, $color-bg-2 555px);
+    font-family: "Proxima Nova";
+    color: $color-text;
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    @include media-breakpoint-up(xl) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+#site-header {
+    background: transparent;
+}
+
+#site-content {
+    flex-grow: 2;
+}
